@@ -1,0 +1,116 @@
+/*TITLE SECTION*/
+
+#title{
+    background-color: #ca0a0ae8;
+    color: #fff;
+}
+
+.container-fluid{
+    padding:3% 5%;   
+}
+
+.navbar{
+    font-size:1.5rem;
+    
+    padding:1rem 1rem;
+}
+
+.navbar-brand{
+    font-family: 'Sigmar', cursive;
+    font-size:3rem;
+}
+
+.nav-button{
+    border-radius:10%;
+}
+
+.nav-item{
+    padding:0 0.7rem;
+}
+
+.title-container{
+    padding-top:4.5rem;
+}
+
+.title-img{
+    width:85%;
+    
+}
+
+.title-text{
+    padding-right:3rem;
+}
+
+h1,h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight:medium;
+    padding-bottom: 3rem;
+}
+
+h3{
+    font-weight:400;
+    line-height:2.5rem;
+}
+
+.carousel-container{
+    padding-top:2rem;
+}
+
+.review-icon{
+    width:50px;
+}
+
+.review{
+    text-align: center;
+}
+
+/*DISCOVER SECTION*/
+
+#discover{
+    background-color: black;
+    color:white;
+}
+
+.feature-img{
+    width:80%;
+}
+
+.card-title{
+    font-family: 'Sigmar', cursive;
+}
+
+/*Location & Contact*/
+
+#location{
+    background-color: #ca0a0ae8;
+    color: #fff;
+}
+
+.form-group{
+    padding-top:1rem;
+}
+
+@media (max-width:1028px){
+    .form-group{
+        padding-bottom:1rem;
+    }
+    .title-text{
+        padding-top:1rem;
+    }
+    .iframe{
+        width:90%;
+    }
+    .title-img{
+        padding-left:1.5rem;
+    }
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding:8% 20%;
+}
